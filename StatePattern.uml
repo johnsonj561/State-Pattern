@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="__rHn8Ac2Eee8jKJaGr4Tkw" name="model">
+  <ownedComment xmi:id="_SwrjkAc3Eee8jKJaGr4Tkw" annotatedElement="_Agz50Ac3Eee8jKJaGr4Tkw">
+    <body>request(){&#xD;
+  state->handle()&#xD;
+}</body>
+  </ownedComment>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Agz50Ac3Eee8jKJaGr4Tkw" name="Context">
+    <ownedOperation xmi:id="_C6j_cAc3Eee8jKJaGr4Tkw" name="request"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Y_vG0Ac3Eee8jKJaGr4Tkw" name="State">
+    <ownedOperation xmi:id="_emU74Ac3Eee8jKJaGr4Tkw" name="handle"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_g0Yu4Ac3Eee8jKJaGr4Tkw" name="context_state_1" memberEnd="_g0Yu4Qc3Eee8jKJaGr4Tkw _g0Pk8Ac3Eee8jKJaGr4Tkw">
+    <ownedEnd xmi:id="_g0Yu4Qc3Eee8jKJaGr4Tkw" name="context" type="_Agz50Ac3Eee8jKJaGr4Tkw" association="_g0Yu4Ac3Eee8jKJaGr4Tkw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_g0Yu4gc3Eee8jKJaGr4Tkw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_g0Yu4wc3Eee8jKJaGr4Tkw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_g0Pk8Ac3Eee8jKJaGr4Tkw" name="state" type="_Y_vG0Ac3Eee8jKJaGr4Tkw" aggregation="shared" association="_g0Yu4Ac3Eee8jKJaGr4Tkw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_g0Pk8Qc3Eee8jKJaGr4Tkw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_g0Pk8gc3Eee8jKJaGr4Tkw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_nmhKAAc3Eee8jKJaGr4Tkw" name="ConcreteStateA">
+    <generalization xmi:id="_ujrwcAc3Eee8jKJaGr4Tkw" general="_Y_vG0Ac3Eee8jKJaGr4Tkw"/>
+    <ownedOperation xmi:id="_vovUAAc3Eee8jKJaGr4Tkw" name="handle"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_o9RhkAc3Eee8jKJaGr4Tkw" name="ConcreteStateB">
+    <generalization xmi:id="_tJS2EAc3Eee8jKJaGr4Tkw" general="_Y_vG0Ac3Eee8jKJaGr4Tkw"/>
+    <ownedOperation xmi:id="_wJ78kAc3Eee8jKJaGr4Tkw" name="handle"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_pzlegAc3Eee8jKJaGr4Tkw" name="ConcreteStateC">
+    <generalization xmi:id="_teJrwAc3Eee8jKJaGr4Tkw" general="_Y_vG0Ac3Eee8jKJaGr4Tkw"/>
+    <ownedOperation xmi:id="_wnLSMAc3Eee8jKJaGr4Tkw" name="handle"/>
+  </packagedElement>
+</uml:Model>
