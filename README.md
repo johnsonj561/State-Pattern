@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------
-#The Adapter Pattern
+#The State Pattern
 
 ###Sources:
 Notes below regarding State pattern taken from "Design Patterns - Elements of Reusable Object-Oriented Software"
