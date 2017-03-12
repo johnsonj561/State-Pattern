@@ -2,7 +2,7 @@
 #The Adapter Pattern
 
 ###Sources:
-Notes below regarding adapter pattern taken from "Design Patterns - Elements of Reusable Object-Oriented Software"
+Notes below regarding State pattern taken from "Design Patterns - Elements of Reusable Object-Oriented Software"
 By Gamma, Helm, Johnson, Vlissides
 
 Example Code provided by Derek Banas:
